@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-left-section,.top-right-section,.botton-right-section,.bottom-left-section{
+    position: fixed;    
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 10px solid green;
+    border-radius: 50%;
+
+}
+.top-left-section,.top-right-section{
+    top: 0;
+}
+.botton-right-section,.bottom-left-section{
+    bottom: 0;
+}
+.top-left-section,.bottom-left-section{       
+    left: 0;   
+}
+.top-right-section,.botton-right-section{        
+    right: 0;    
+}
+/* .center-div{
+    position: relative;
+} */
+.fsrt-ceneter,.scond-ceneter,.trd-ceneter,.fth-ceneter{
+    position: absolute;    
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;        
+}
+.fsrt-ceneter,.scond-ceneter{    
+    top: 35%;    
+}
+.fsrt-ceneter,.trd-ceneter{
+    left: 40%;
+}
+.scond-ceneter,.fth-ceneter{    
+    right: 40%;
+}
+.trd-ceneter,.fth-ceneter{
+    bottom: 30%;
+}
+
+.five-ceneter{
+    position: absolute;    
+    background-color: cyan;
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50%;    */
+    top: 50%; 
+    left: 50%;
+    
+}
+
